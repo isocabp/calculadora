@@ -4,21 +4,11 @@ body {
   background-color: black;
 }
 
-.caixa {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
-
 h1 {
-  color: white;
   font-family: "Bebas Neue", cursive;
-  height: 80vh;
+  color: #fff;
   font-size: 65px;
-  display: flex;
+  text-align: center;
 }
 
 input {
@@ -29,6 +19,7 @@ input {
   font-family: "Bebas Neue", cursive;
   border-radius: 25%;
   border-color: #fff;
+  cursor: pointer;
 }
 
 .num {
@@ -55,14 +46,11 @@ input {
   cursor: pointer;
 }
 
-main {
-  margin: 90 0;
-}
-
 .main {
   display: flex;
   justify-content: center;
   align-content: space-around;
+  padding: 90px;
 }
 
 .maincolor {
