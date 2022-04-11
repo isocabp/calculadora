@@ -50,7 +50,6 @@ input {
   display: flex;
   justify-content: center;
   align-content: space-around;
-  padding: 90px;
 }
 
 .maincolor {
@@ -75,4 +74,10 @@ input {
 
 .ora {
   background-color: #fcb707;
+}
+
+@media (min-width: 769px) {
+  .main {
+    padding: 0;
+  }
 }
